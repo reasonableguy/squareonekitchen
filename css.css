@@ -38,5 +38,16 @@ background-repeat: no-repeat;
 }
 
 
-  
+  /* footer */
+
+.footer {
+    background: aliceblue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+}
+
+
     
