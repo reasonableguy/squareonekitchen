@@ -23,5 +23,12 @@ background-repeat: no-repeat;
         display:flex;
 
 }
+
+.topmenu{
+    display:flex;
+}
+.topmenu a {
+    margin:5px 20px;
+}
   
     
