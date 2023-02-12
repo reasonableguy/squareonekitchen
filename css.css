@@ -2,8 +2,11 @@
 body {
     margin: 0;
 }
+
+
+/* header */
+
 .header {
-       background: pink;
     margin: 0;
     text-align: center;
     display: flex;
@@ -25,19 +28,15 @@ background-repeat: no-repeat;
 
 
 .header h1{
-  width:100%;
-    justify-content:center;
-  align-items:center;
-        display:flex;
-    margin:0;
+  width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+    margin: 0 0 10px 0;
 
 }
 
-.topmenu{
-    display:flex;
-}
-.topmenu a {
-    margin:5px 20px;
-}
+
   
     
