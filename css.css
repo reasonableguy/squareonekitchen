@@ -49,5 +49,26 @@ background-repeat: no-repeat;
     height: fit-content;
 }
 
+.flex-foot {
+        display: flex;
+    flex-direction: row;
+}
+
+.flex-foot-inner {
+    width: 50%;
+}
+
+@media screen and only (max-width:600px) {
+    .flex-foot {
+    flex-direction: column;
+}
+
+.flex-foot-inner {
+    width: 100%;
+}
+}
+
+
+
 
     
