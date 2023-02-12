@@ -49,14 +49,19 @@ background-repeat: no-repeat;
     height: fit-content;
 }
 
+
+
 .footer h3 {
     width: 180px;
-    line-height: 25px;
+    line-height: 30px;
     border: 1px solid #000555;
     padding: 20px;
     text-align: center;
     height: 180px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-foot {
