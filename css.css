@@ -49,6 +49,16 @@ background-repeat: no-repeat;
     height: fit-content;
 }
 
+.footer h3 {
+    width: 180px;
+    line-height: 25px;
+    border: 1px solid #000555;
+    padding: 20px;
+    text-align: center;
+    height: 180px;
+    margin: auto;
+}
+
 .flex-foot {
         display: flex;
     flex-direction: row;
@@ -58,6 +68,13 @@ background-repeat: no-repeat;
     width: 50%;
     padding:10px 20px;
 }
+
+.flex-foot:not(first-child){
+  justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 @media only screen and (max-width: 600px) {
     .flex-foot {
     flex-direction: column;
