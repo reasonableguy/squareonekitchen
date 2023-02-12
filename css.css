@@ -57,8 +57,7 @@ background-repeat: no-repeat;
 .flex-foot-inner {
     width: 50%;
 }
-
-@media only screen  only (max-width:600px) {
+@media only screen and (max-width: 600px) {
     .flex-foot {
     flex-direction: column;
 }
