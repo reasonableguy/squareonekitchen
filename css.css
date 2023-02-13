@@ -80,6 +80,16 @@ background-repeat: no-repeat;
     align-items: center;
     display: flex;
 }
+.flex-foot .flex-foot-inner:(first-child) * {
+    color: red;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+.flex-foot .flex-foot-inner * {
+    color: blue;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
 
 @media only screen and (max-width: 600px) {
     .flex-foot {
