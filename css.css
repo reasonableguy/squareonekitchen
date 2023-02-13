@@ -35,6 +35,7 @@ margin: 10px auto 0;}
     display: flex;
     color: #ffffff;
     margin: 0 0 10px 0;
+	text-shadow:2px 2px #1a607f;
 
 }
 
@@ -42,7 +43,7 @@ margin: 10px auto 0;}
   /* ///////////////////////////////////////////// footer ////////////////////////////////////////// */
 
 .footer {
-    background: aliceblue;
+    background: #1a607f;
     position: relative;
     bottom: 0;
     left: 0;
@@ -55,7 +56,7 @@ margin: 10px auto 0;}
 .footer h3 {
     width: 180px;
     line-height: 30px;
-    border: 1px solid #000555;
+    border: 1px solid #ffffff;
     padding: 20px;
     text-align: center;
     height: 180px;
@@ -63,6 +64,7 @@ margin: 10px auto 0;}
     display: flex;
     justify-content: center;
     align-items: center;
+	color: #ffffff;
 }
 
 .flex-foot {
@@ -83,6 +85,7 @@ margin: 10px auto 0;}
 .flex-foot-inner p, .flex-foot-inner h2{
     margin-inline-start: 10px;
     margin-inline-end: 10px;
+	color:#ffffff;
 }
 
 
