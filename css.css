@@ -8,13 +8,14 @@ body {
 /* //////////////////////////////////header ///////////////////////////////////////////////*/
 
 .header {
-    margin: 0;
+margin: 0;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-background-image:url("https://d33wubrfki0l68.cloudfront.net/67d46ee5-76c5-410a-a969-669ea7209971/web%20banner.png");
-background-repeat: no-repeat;
+    background-image: url(https://d33wubrfki0l68.cloudfront.net/c6e36147-97fc-4e40-81f6-56675d7703c6/web%20banner.png);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .logo {
