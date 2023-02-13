@@ -12,10 +12,14 @@
 	<link rel="stylesheet" href="/css.css"> 
 
 <style>
-.recipe-header {
+.recipe {
+	margin: 2.5%;
+	}
+	.recipe-header {
     display: flex;
     align-items: center;
     justify-content: center;
+		flex-wrap:wrap;
 }
 	.recipe-title {
 	text-align:center;
@@ -30,10 +34,15 @@
 	}
 	.recipe-header > div {
 		width:50%;
+		padding:2.5%;
 	}
 	img#mypic {
     width: 100%;
 }
+	@media screen and onl (max-width:767px) {
+	.recipe-header > div {
+		width:100%;
+	}	
 	
 	
 	</style>
