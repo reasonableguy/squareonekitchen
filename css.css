@@ -80,9 +80,9 @@ background-repeat: no-repeat;
     align-items: center;
     display: flex;
 }
- .flex-foot-inner:(first-child) {
-    margin-left: 10px;
-    margin-left: 10px;
+.flex-foot-inner:not(h3 a){
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
 }
 
 
