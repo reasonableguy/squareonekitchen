@@ -49,6 +49,7 @@ margin: 10px auto 0;}
     left: 0;
     right: 0;
     height: fit-content;
+	width:100vw;
 }
 
 
@@ -75,6 +76,8 @@ margin: 10px auto 0;}
 .flex-foot {
         display: flex;
     flex-direction: row;
+	max-width:1024px;
+	margin:auto;
 }
 
 .flex-foot-inner {
@@ -108,7 +111,7 @@ margin: 10px auto 0;}
 /* /////////////////////////////////////// RECIPES ///////////////////////////////*/
 
 .recipe {
-	margin: 2.5%;
+	margin: 2.5% auto;
 	max-width:1024px;
 	}
 	.recipe-header, .recipe-body {
