@@ -12,17 +12,45 @@
 	<link rel="stylesheet" href="/css.css"> 
 
 <style>
-body {
-  font-family: avenir-light, Helvetica, sans-serif;
+
+/* INSERT RECIPE TITLE */
+.recipe-title:after {
+content:'Umami Bolognese';
 }
+/* INSERT PREP TIME */
+	.prep-time:after {
+		content:'20 minutes';
+	}
+/* INSERT COOK TIME */
+	.cook-time:after {
+		content:'45 minutes';
+	}
+/* INSERT TOTAL TIME */
+	.total-time:after {
+		content:'65 minutes';
+	}
+/* INSERT SERVINGS */
+.servings:after {
+content:'4';
+}
+/* INSERT IMAGE URL */
 </style>
+	
+<script type="text/javascript">
+onload = function(){
+var vara='https://d33wubrfki0l68.cloudfront.net/08bfd155-9678-4e51-8acb-1eb1e25b3696/IMG_8943.jpeg';
+document.getElementById('mypic').setAttribute('src',vara)
+}
+</script>
+	
+
 </head>
 <body>
  <div class="container"> <div w3-include-html="/head.html"></div>
 	
 	
 	<div class="recipe">
-<h1>Bolognese</h1>
+<h1 class="recipe-title"></h1>
 <p>
 
 Ingredients
