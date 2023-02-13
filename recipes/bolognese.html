@@ -14,8 +14,9 @@
 <style>
 .recipe {
 	margin: 2.5%;
+	max-width:1024px;
 	}
-	.recipe-header {
+	.recipe-header, .recipe-body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +33,7 @@
     margin: 0 auto;
     max-width: 30ch;	
 	}
-	.recipe-header > div {
+	.recipe-header > div, .recipe-body > div {
 		width:calc(50% - 5%);
 		padding:0 2.5%;
 	}
@@ -40,7 +41,7 @@
     width: 100%;
 }
 	@media only screen and (max-width:767px) {
-	.recipe-header > div {
+	.recipe-header > div, .recipe-body > div {
 		width:100%;
 		padding:2.5% 0;
 	}	
@@ -66,10 +67,6 @@ content:'Umami Bolognese';
 	.total-time:after {
 		content:'65 minutes';
 	}
-/* INSERT SERVINGS */
-.servings:after {
-content:'4';
-}
 /* INSERT IMAGE URL */
 </style>
 	
@@ -100,6 +97,8 @@ document.getElementById('mypic').setAttribute('src',vara)
 			<img id="mypic" src="">
 		</div>
 	</div>
+	<div class="recipe-body">
+	<div class="ingredients">
 <p>
 
 Ingredients
@@ -116,7 +115,8 @@ Ingredients
 •	1 Tbsp Soy sauce
 •	1 Tbsp Unsweetened Cocoa
 
- 
+		</div>
+		<div class="method">
 
 
 Method
@@ -129,7 +129,9 @@ Method
 Give everything a good stir and reduce the heat to low. Leave to simmer around 2 hours, or until thickened and reduced, stirring occasionally.
 7.	Season the ragù to taste. Blitz in batches.</p>
   
-	
+			</div>
+		</div>
+
 	 </div>
 	
 	<div class="footer" w3-include-html="/footer.html"></div>
