@@ -2,8 +2,8 @@
 body {
     margin: 0;
 }
-.container {position:relative;}
-
+.container {position:absolute;}
+.recipe {position:relative;}
 /* header */
 
 .header {
@@ -42,7 +42,7 @@ background-repeat: no-repeat;
 
 .footer {
     background: aliceblue;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
