@@ -130,6 +130,10 @@ background-repeat: no-repeat;
 	.recipe li {
 		padding: 5px 0px; 
 		}
+
+.ingredients h3, .method h3 {
+	padding-left: 25px;
+}
 	
 	@media only screen and (max-width:767px) {
 	.recipe-header > div, .recipe-body > div {
