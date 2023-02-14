@@ -198,6 +198,10 @@ margin: 10px auto 0;}
 		padding: 0 !important;
 	}
 	
+	*:not(ol) {
+		padding: 0 !important;
+	}
+	
 }
 
 
