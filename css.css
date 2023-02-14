@@ -156,6 +156,9 @@ margin: 10px auto 0;}
 
 /* //////////////////////////////////print ///////////////////////////////////////////////*/
 	
+.prontbtn {
+	    margin: 10px auto;
+	display: block;}
 
 @media print {
    .noprint {
