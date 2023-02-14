@@ -161,7 +161,7 @@ margin: 10px auto 0;}
 	display: block;}
 
 @media print {
-   .noprint {
+   .noprint, .footer, .header, img {
        display: none;
     }
     .print {
@@ -183,7 +183,7 @@ margin: 10px auto 0;}
 	h1 {
 		font-size:24px;
 	}
-	p{
+	p, li{
 		font-size:16px;
 		line-height:16px;
 		padding:0;
@@ -192,10 +192,7 @@ margin: 10px auto 0;}
 		content:"Square One Kitchen";
 		color:"red"
 	}
-	li:before {
-		content:"*";
-		
-	}
+	
 	
 }
 
