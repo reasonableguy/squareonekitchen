@@ -153,8 +153,24 @@ margin: 10px auto 0;}
 	}	
 	}
 	
-	
 
+/* //////////////////////////////////print ///////////////////////////////////////////////*/
+	
+}
+@media print {
+   .noprint {
+       display: none;
+    }
+    .print {
+       display: block;
+    }
+	
+		.recipe-header > div, .recipe-body > div {
+		width:100%;
+		padding:2.5% 0;
+	}
+	
+}
 
 
 
