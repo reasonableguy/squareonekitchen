@@ -2,8 +2,15 @@
 body {
     margin: 0;
 }
-.container {position:absolute;}
-.recipe {position:relative;}
+.container {
+	position:absolute;
+}
+.recipe {
+	position:relative;
+}
+    * {
+	    font-family: avenir;
+}
 
 /* //////////////////////////////////header ///////////////////////////////////////////////*/
 
@@ -172,8 +179,7 @@ margin: 10px auto;
 .printbtn:hover {
         color: #ffffff;
         background: #1a607f;
-	border: 1px solid #ffffff;
-    box-shadow: 2px 2px 2px #1a607f;	
+	
 }
 
 @media print {
