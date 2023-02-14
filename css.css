@@ -172,6 +172,14 @@ margin: 10px auto 0;}
 		width:100%;
 		padding:2.5% 0;
 	}
+	
+	*:not(h3) {
+    margin: 0;
+}
+	*{
+		padding: 0 !important;
+	}
+	
 	h1 {
 		font-size:24px;
 	}
@@ -183,6 +191,10 @@ margin: 10px auto 0;}
 	.recipe-title:before {
 		content:"Square One Kitchen";
 		color:"red"
+	}
+	li:before {
+		content:"*";
+		
 	}
 	
 }
