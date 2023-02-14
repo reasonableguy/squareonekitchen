@@ -173,8 +173,9 @@ margin: 10px auto 0;}
 		padding:2.5% 0;
 	}
 	p{
-		font-size:12px;
-		line-height:12px;
+		font-size:16px;
+		line-height:16px;
+		padding:0;
 	}
 	
 }
