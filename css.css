@@ -194,11 +194,7 @@ margin: 10px auto 0;}
 		color:"red"
 	}
 
-	*:not(ul) {
-		padding: 0 !important;
-	}
-	
-	*:not(ol) {
+	*:not(ul):not(ol) {
 		padding: 0 !important;
 	}
 	
