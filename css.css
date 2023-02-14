@@ -197,8 +197,11 @@ margin: 10px auto 0;}
 	}
 	li {
 		 list-style-type: circle;
+		color:red;
 	}
-	
+	li:before {
+		content:"boo"
+	}
 	
 }
 
