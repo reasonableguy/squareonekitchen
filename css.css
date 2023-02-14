@@ -177,6 +177,10 @@ margin: 10px auto 0;}
 		line-height:16px;
 		padding:0;
 	}
+	.recipe.title:before {
+		content:"Square One Kitchen";
+		color:red'
+	}
 	
 }
 
