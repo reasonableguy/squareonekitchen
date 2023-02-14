@@ -176,6 +176,9 @@ margin: 10px auto 0;}
 	*:not(h3) {
     margin: 0;
 }
+		h3 {
+    margin: .25em;
+}
 	*{
 		padding: 0 !important;
 	}
@@ -191,6 +194,9 @@ margin: 10px auto 0;}
 	.recipe-title:before {
 		content:"Square One Kitchen";
 		color:"red"
+	}
+	li {
+		 list-style-type: circle;
 	}
 	
 	
