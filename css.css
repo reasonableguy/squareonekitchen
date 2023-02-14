@@ -158,7 +158,23 @@ margin: 10px auto 0;}
 	
 .printbtn {
 	    margin: 10px auto;
-	display: block;}
+	display: block;
+margin: 10px auto;
+    display: block;
+    color: #1a607f;
+        background: #ffffff;
+    border: 1px solid #1a607f;
+    box-shadow: 2px 2px 2px #1a607f;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+.printbtn:hover {
+        color: #ffffff;
+        background: #1a607f;
+	border: 1px solid #ffffff;
+    box-shadow: 2px 2px 2px #1a607f;	
+}
 
 @media print {
    .noprint, .footer, .header, img {
