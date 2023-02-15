@@ -98,8 +98,8 @@ margin: 10px auto 0;}
     display: flex;
 }
 .flex-foot-inner p, .flex-foot-inner h2{
-    margin-inline-start: 10px;
-    margin-inline-end: 10px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
 	color:#ffffff;
 }
 
