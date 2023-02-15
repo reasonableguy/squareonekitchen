@@ -228,8 +228,8 @@ margin: 10px auto;
 		padding: 0 !important;
 	}
 	
-	.time {
-		padding:10px;
+	.prep-time, cook-time, .total-time {
+		margin:5px;
 	}
 	
 }
