@@ -56,7 +56,7 @@ margin: 10px auto 0;}
     left: 0;
     right: 0;
     height: fit-content;
-	max-width:100vw;
+	width:100vw;
 }
 
 
@@ -106,7 +106,7 @@ margin: 10px auto 0;}
 
 @media only screen and (max-width: 600px) {
    .footer {
-	   max-width:unset;
+	   width:unset;
 	}
 	.flex-foot {
     flex-direction: column;
