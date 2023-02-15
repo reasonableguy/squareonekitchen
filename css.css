@@ -159,6 +159,14 @@ margin: 10px auto 0;}
 		padding:2.5% 0;
 	}	
 	}
+
+iframe {
+	    width: 100%;
+    max-width: 560px;
+    display: block;
+    margin: 20px auto 50px;
+}
+
 	
 
 /* //////////////////////////////////print ///////////////////////////////////////////////*/
@@ -183,7 +191,7 @@ margin: 10px auto;
 }
 
 @media print {
-   .noprint, .footer, .header, img {
+   .noprint, .footer, .header, img, iframe {
        display: none;
     }
     .print {
