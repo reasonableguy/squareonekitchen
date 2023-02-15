@@ -189,7 +189,7 @@ margin: 10px auto;
 }
 
 @media print {
-   .noprint, .footer, .header, img {
+   .noprint, .footer, .header, img, iframe {
        display: none;
     }
     .print {
@@ -224,6 +224,10 @@ margin: 10px auto;
 
 	*:not(ul):not(ol) {
 		padding: 0 !important;
+	}
+	
+	.time{
+	padding:10px;	
 	}
 	
 }
