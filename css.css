@@ -231,11 +231,11 @@ margin: 10px auto;
 	}
 
 	*:not(ul):not(ol) {
-		padding: 10px !important;
+		padding: 5px !important;
 	}
 	
 	.prep-time, cook-time, .total-time {
-		margin:10px;
+		margin:5px 0;
 	}
 	
 }
