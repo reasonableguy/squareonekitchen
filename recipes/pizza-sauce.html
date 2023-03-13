@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Square One Kitchen's Pizza Sauce</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+	<link rel="stylesheet" href="/css.css"> 
+
+
+	<style>
+/* INSERT RECIPE TITLE */
+.recipe-title:after {
+content:'Pizza Sauce';
+}
+/* INSERT PREP TIME */
+	.prep-time:after {
+		content:'5 minutes';
+	}
+/* INSERT COOK TIME */
+	.cook-time:after {
+		content:'0 minutes';
+	}
+/* INSERT TOTAL TIME */
+	.total-time:after {
+		content:'5 minutes';
+	}
+/* INSERT IMAGE URL */
+</style>
+	
+<script type="text/javascript">
+onload = function(){
+var vara='https://i9.ytimg.com/vi/7jTUeLYway4/mqdefault.jpg?v=640d2782&sqp=CNDovqAG&rs=AOn4CLBaQehen4OiaNEGu6F-qzMDwP86zw';
+document.getElementById('mypic').setAttribute('src',vara)
+}
+</script>
+	
+
+</head>
+<body >
+ <div class="container"> <div w3-include-html="/head.html"></div>
+	
+
+<div class="print recipe">
+	<div class="recipe-header">
+		<div>
+			<h1 class="recipe-title"></h1>
+			<div class="time">
+				<p class="prep-time">Prep time: </p>
+				<p class="cook-time">Cook time: </p>
+				<p class="total-time">Total time: </p>
+				
+			</div>
+			<button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+
+		</div>
+		<div>
+			<img class="noprint" id="mypic" src="">
+		</div>
+	</div>
+	<div class="recipe-body">
+	<div class="ingredients">
+
+		<h3>Ingredients</h3>
+<ul>
+	<li>400g Tinned Crushed Tomatoes</li>
+	<li>3 Tbsp Olive Oil</li>
+	<li>1/2 tsp Sea Salt</li>
+	<li>1/2 tsp Oregano</li>
+	<li>1-2 cloves garlic (crushed)</li>
+	</ul>
+
+		</div>
+		<div class="method">
+
+		<h3>Method</h3>
+
+<ol>
+	<li>Pour the tomatoes into a large bowl.</li>
+	<li>Add the rest of the ingredients and mix well.</li>
+	<li>That's it!!</li>
+</ol>  
+			</div>
+		</div>
+<iframe style="display:none" width="560" height="315" src="??????" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	 </div>
+	
+	<div class="footer" w3-include-html="/footer.html"></div>
+	</div>
+	
+</body>
+  <script>
+w3.includeHTML();
+</script>
+</html>
+
+
+
+
