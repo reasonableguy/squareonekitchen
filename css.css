@@ -212,12 +212,17 @@ margin: 10px auto;
 	
 	
 	h1 {
-		font-size:24px;
+		font-size:30px;
 	}
-	p, li{
+	p{
 		font-size:14px;
 		line-height:14px;
 		padding:0;
+	}
+	li{
+		font-size:14px;
+		line-height:16x;
+		padding:0 0 5px 0;
 	}
 	.recipe-title:before {
 		content:"Square One Kitchen: ";
