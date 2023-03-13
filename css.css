@@ -208,6 +208,10 @@ margin: 10px auto;
     margin: .25em;
 }
 	
+	.recipe {
+		border: 2px blue solid;
+	}
+	
 	
 	h1 {
 		font-size:30px;
