@@ -203,9 +203,7 @@ margin: 10px auto;
 		padding:2.5% 0;
 	}
 	
-	*:not(h3) {
-    margin: 0;
-}
+
 		h3 {
     margin: .25em;
 }
