@@ -209,7 +209,8 @@ margin: 10px auto;
 }
 	
 	.recipe {
-		border: 2px blue solid;
+		border: 1px solid #1a607f;
+		padding:5px;
 	}
 	
 	
@@ -224,19 +225,17 @@ margin: 10px auto;
 	li{
 		font-size:14px;
 		line-height:16x;
-		padding:0 0 5px 0;
 	}
 	.recipe-title:before {
 		content:"Square One Kitchen: ";
-		color:"red !important"
 	}
 
 	*:not(ul):not(ol) {
-		padding: 0 !important;
+		padding: 10px !important;
 	}
 	
 	.prep-time, cook-time, .total-time {
-		margin:5px;
+		margin:10px;
 	}
 	
 }
