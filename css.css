@@ -211,8 +211,7 @@ margin: 10px auto;
 	.recipe {
 		border: 1px solid #1a607f;
 		padding:5px;
-		max-width: 100% !important;
-		width:100% !important;
+		width: calc(100vw - 40px);
 		margin:0 auto !important;
 	}
 	
