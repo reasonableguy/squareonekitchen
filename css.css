@@ -212,6 +212,8 @@ margin: 10px auto;
 		border: 1px solid #1a607f;
 		padding:5px;
 		max-width: unset;
+		background-color:pink;
+		width:100%;
 	}
 	
 	
