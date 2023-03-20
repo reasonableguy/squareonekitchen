@@ -209,10 +209,12 @@ margin: 10px auto;
 }
 	
 	.recipe {
-		border: 1px solid lime;
+		border: 1px solid #1a607f;
 		padding:5px;
 		max-width: unset !important;
 		width:100% !important;
+		margin:0 auto !important;
+		position:fixed !important;
 	}
 	
 	
