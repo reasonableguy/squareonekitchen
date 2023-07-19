@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Square One Kitchen's Homemade Fresh Pasta</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+	<link rel="stylesheet" href="/css.css"> 
+
+
+	<style>
+/* INSERT RECIPE TITLE */
+.recipe-title:after {
+content:'Homemade Pasta Dough';
+}
+/* INSERT PREP TIME */
+	.prep-time:after {
+		content:'30 minutes';
+	}
+/* INSERT COOK TIME */
+	.cook-time:after {
+		content:'30 seconds';
+	}
+/* INSERT TOTAL TIME */
+	.total-time:after {
+		content:'2.5 hours';
+	}
+/* INSERT IMAGE URL */
+</style>
+	
+<script type="text/javascript">
+onload = function(){
+var vara='https://i9.ytimg.com/vi/nOvbTZrUzdg/mqdefault.jpg?v=6436d307&sqp=CPTG4KUG&rs=AOn4CLDa5bsdd8XOIzHK-lJz02r7FaJ11Q';
+document.getElementById('mypic').setAttribute('src',vara)
+}
+</script>
+	
+
+</head>
+<body >
+ <div class="container"> <div w3-include-html="/head.html"></div>
+	
+
+<div class="print recipe">
+	<div class="recipe-header">
+		<div>
+			<h1 class="recipe-title"></h1>
+			<div class="time">
+				<p class="prep-time">Prep time: </p>
+				<p class="cook-time">Cook time: </p>
+				<p class="total-time">Total time: </p>
+				
+			</div>
+			<button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+
+		</div>
+		<div>
+			<img class="noprint" id="mypic" src="">
+		</div>
+	</div>
+	<div class="recipe-body">
+	<div class="ingredients">
+
+		<h3>Ingredients</h3>
+<ul>
+	<li>3 eggs</li>
+	<li>300g "00" flour</li>
+</ul>
+
+		</div>
+		<div class="method">
+
+		<h3>Method</h3>
+
+<ol>
+	<li>Add flour and eggs to a food processor.</li>
+	<li>Blend briefly until it resembles large couscous.</li>
+	<li>Squeeze the dough into a ball and wrap in cling film.</li>
+	<li>Leave at room temperature for 2-4 hours.</li>
+	<li>Divide the dough into ~100g portions.</li>
+	<li>Flatten the first ball with the heel of your hand and guide it through the pasta machine on setting 1.</li>
+	<li>Fold the ends of the length of dough so that they meet in the middle.</li>
+	<li>Pass the folded dough through again (still on setting 1) rotated 90° from your original pass.</li>
+	<li>Fold the ends in again and pass through on setting 1 (repeat this a few times if you wish).</li>
+ 	<li>Pass the dough through at setting 2 (without folding), working all the way up to setting 6 for noodles or lasagne, or setting 7 for ravioli etc.</li>
+  <li>Buon apetito.</li>
+</ol>  
+			</div>
+		</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nOvbTZrUzdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>	 </div>
+	
+	<div class="footer" w3-include-html="/footer.html"></div>
+	</div>
+	
+</body>
+  <script>
+w3.includeHTML();
+</script>
+</html>
+
+
+
