@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Square One Kitchen's Plain Scones</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+	<link rel="stylesheet" href="/css.css"> 
+
+
+	<style>
+/* INSERT RECIPE TITLE */
+.recipe-title:after {
+content:'Homemade Scones';
+}
+/* INSERT PREP TIME */
+	.prep-time:after {
+		content:'15 minutes';
+	}
+/* INSERT COOK TIME */
+	.cook-time:after {
+		content:'10-15 minutes';
+	}
+/* INSERT TOTAL TIME */
+	.total-time:after {
+		content:'30 minutes';
+	}
+/* INSERT IMAGE URL */
+</style>
+	
+<script type="text/javascript">
+onload = function(){
+var vara='https://i9.ytimg.com/vi/UsQN6-3BfP8/mqdefault.jpg?v=64da36b6&sqp=CJC6-qYG&rs=AOn4CLAiPW0jX5HSQHTm1tooSwGKL_ysFg';
+document.getElementById('mypic').setAttribute('src',vara)
+}
+</script>
+	
+
+</head>
+<body >
+ <div class="container"> <div w3-include-html="/head.html"></div>
+	
+
+<div class="print recipe">
+	<div class="recipe-header">
+		<div>
+			<h1 class="recipe-title"></h1>
+			<div class="time">
+				<p class="prep-time">Prep time: </p>
+				<p class="cook-time">Cook time: </p>
+				<p class="total-time">Total time: </p>
+				
+			</div>
+			<button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+
+		</div>
+		<div>
+			<img class="noprint" id="mypic" src="">
+		</div>
+	</div>
+	<div class="recipe-body">
+	<div class="ingredients">
+
+		<h3>Ingredients</h3>
+<ul>
+	<li>3 cups all-purpose flour</li>
+  <li>2 tablespoons baking powder</li>
+<li>1/4 teaspoon salt</li>
+<li>50g butter</li>
+<li>1 & 1/4 cup milk + extra for brushing</li>
+</ul>
+
+		</div>
+		<div class="method">
+
+		<h3>Method</h3>
+
+<ol>
+	  <li>Preheat oven to 450°F.</li>
+<li>In a large bowl, combine the three dry ingredients.</li>
+<li>Cut the butter in until it ressembles breadcrumbs.</li>
+  <li>Add 1 & 1/4 cups of milk and combine to a sticky dough.</li>
+<li>Pour the dough out onto a floured surface and knead lightly.</li>
+<li>Roll the dough out until about 1/4 inch thick.</li>
+<li>Fold the dough in half and cut the scones into your desired shape.</li>
+<li>Place the scones on a floured oven tray (with about an inch between the scones).</li>
+  <li>Brush the tops with milk.</li>
+  <li>Bake at 450°F for 10-15 minutes (until golden brown).</li>
+
+</ol>  
+			</div>
+		</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UsQN6-3BfP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>	 </div>
+	
+	<div class="footer" w3-include-html="/footer.html"></div>
+	</div>
+	
+</body>
+  <script>
+w3.includeHTML();
+</script>
+</html>
+
+
