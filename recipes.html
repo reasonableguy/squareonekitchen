@@ -43,12 +43,12 @@ def sort_files(a, b):
 
 # Creates a line of text for a directory entry.
 def directory_line(file_name, full_path, level):
-    has_readme = os.path.isfile(os.path.join(full_path, 'README.md'))
-    return ('\t' * level) + '- ' + (file_name if not has_readme else '[%s](%s)' % (file_name, urllib.pathname2url(full_path)))
+    has_readme = os.path.isfile(os.path.join(https://github.com/reasonableguy/squareonekitchen/tree/main/recipes, 'README.md'))
+    return ('\t' * level) + '- ' + (file_name if not has_readme else '[%s](%s)' % (recipes, urllib.pathname2url(https://github.com/reasonableguy/squareonekitchen/tree/main/recipes)))
 
 # Creates a line of text for a file entry.
-def file_line(file_name, full_path, level):
-    return ('\t' * level) + '- [%s](%s)' % (os.path.splitext(file_name)[0], urllib.pathname2url(full_path))
+def file_line(recipes, https://github.com/reasonableguy/squareonekitchen/tree/main/recipes, level):
+    return ('\t' * level) + '- [%s](%s)' % (os.path.splitext(recipes)[0], urllib.pathname2url(https://github.com/reasonableguy/squareonekitchen/tree/main/recipes))
 
 # Walks a given directory to create a TOC out of it.
 def walk_directory(path = '.', exclude = ['.git', '.idea'], level = 0):
