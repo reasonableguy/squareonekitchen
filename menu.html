@@ -10,4 +10,56 @@
         <!-- Links will be added here -->
     </ul>
 </body>
+    <script>
+        const fs = require('fs');
+const path = require('path');
+
+const pagesFolderPath = path.join(__dirname, 'recipes');
+const menuFilePath = path.join(__dirname, 'menu.html');
+
+fs.watch(pagesFolderPath, { encoding: 'utf-8' }, (eventType, filename) => {
+    if (eventType === 'rename' && filename.endsWith('.html')) {
+        updateMenu();
+    }
+});
+
+function updateMenu() {
+    fs.readdir(pagesFolderPath, (err, files) => {
+        if (err) {
+            console.error('Error reading recipes folder:', err);
+            return;
+        }
+
+        const menuItems = files
+            .filter(file => file.endsWith('.html'))
+            .map(file => `<li><a href="./recipes/${file}">${file}</a></li>`)
+            .join('\n');
+
+        const menuContent = `
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Menu</title>
+            </head>
+            <body>
+                <ul id="menu-list">
+                    ${menuItems}
+                </ul>
+            </body>
+            </html>
+        `;
+
+        fs.writeFile(menuFilePath, menuContent, err => {
+            if (err) {
+                console.error('Error updating menu:', err);
+            } else {
+                console.log('Menu updated successfully.');
+            }
+        });
+    });
+}
+
+    </script>
 </html>
