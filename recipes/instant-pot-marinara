@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Square One Kitchen's Instant Pot Marinara Recipe</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><script src="https://www.w3schools.com/lib/w3.js"></script>
+      <link rel="stylesheet" href="/css.css">
+      <style>/* INSERT RECIPE TITLE */.recipe-title:after {content:'Instant Pot Marinara';}/* INSERT PREP TIME */.prep-time:after {content:'30 minutes';}/* INSERT COOK TIME */.cook-time:after {content:'18 minutes';}/* INSERT TOTAL TIME */.total-time:after {content:'3 hours';}/* INSERT IMAGE URL */</style>
+      <script type="text/javascript">onload = function(){var vara='https://d33wubrfki0l68.cloudfront.net/7c049e51-e809-4dc6-9496-f7eee6d9036b/Marinara%20Thumbnail.jpg';document.getElementById('mypic').setAttribute('src',vara)}</script>
+   </head>
+   <body >
+      <div class="container">
+         <div w3-include-html="/head.html"></div>
+         <div class="print recipe">
+            <div class="recipe-header">
+               <div>
+                  <h1 class="recipe-title"></h1>
+                  <div class="time">
+                     <p class="prep-time">Prep time: </p>
+                     <p class="cook-time">Cook time: </p>
+                     <p class="total-time">Total time: </p>
+                  </div>
+                  <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+               </div>
+               <div><img class="noprint" id="mypic" src=""></div>
+            </div>
+            <div class="recipe-body">
+               <div class="ingredients">
+                  <h3>Ingredients</h3>
+                  <ul>
+                     <li>2 large tins whole tomatoes</li>
+                     <li>2 tablespoons olive oil</li>
+                     <li>30g butter</li>
+                     <li>4 cloves garlic</li>
+                     <li>1.2 teaspoon dried oregano</li>
+                     <li>1 carrot</li>
+                     <li>1 onion</li>
+                     <li>2 stems basil</li>
+                  </ul>
+               </div>
+               <div class="method">
+                  <h3>Method</h3>
+                  <ol>
+                     <li>Empty the tomato tins into a large bowl & pulverize the tomatoes with your hands until there are no large pieces left.</li>
+                     <li>Turn your instant pot onto sauté (medium heat).</li>
+                     <li>Add oil and butter, then add garlic and soften (around 2 mins).</li>
+                     <li>Add oregano and cook for about a minute.</li>
+                     <li>Meanwhile, chop the carrot and onion into large pieces.</li>
+                     <li>Remove about 2/3 of the leaves from the basil and cut into ribbons.</li>
+                     <li>Add the pulverized tomato to the instant pot.</li>
+                     <li>Add the carrot and onion pieces, and the basil stalks.</li>
+                     <li>Seal the instant pot and pressure cook for 45 mins.</li>
+                     <li>Quick release the pressure and open the lid.</li>
+                     <li>Use tongs to remove the carrot, onion, and basil pieces.</li>
+                     <li>Add the fish sauce and chopped basil ribbons.</li>
+                     <li>Season with salt and pepper to taste.</li>
+                     <li>Switch to sauté to thicken (if desired).</li>
+                     <li>To serve, heat sauce in a pan and stir in the pasta of your choice.</li>
+                  </ol>
+               </div>
+            </div>
+            <iframe></iframe>
+         </div>
+         <div class="footer" w3-include-html="/footer.html"></div>
+      </div>
+   </body>
+   <script>w3.includeHTML();</script>
+</html>
