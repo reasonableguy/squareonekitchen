@@ -6,12 +6,15 @@
     <title>GitHub Folder Contents</title>
 </head>
 <body>
-    <h1>Contents of 3</h1>
+    <h1>ConFolder</h1>
     <ul id="folderContents"></ul>
 
     <script>
-        const markdownFileUrl = 'https://raw.githubusercontent.com/reasonableguy/squareonekitchen/main/recipes/contents.md';
+        const repositoryUrl = 'https://github.com/reasonableguy/squareonekitchen';
         const folderContentsList = document.getElementById('folderContents');
+
+        // Replace 'contents.md' with the actual file you want to parse.
+        const markdownFileUrl = `${repositoryUrl}/blob/main/recipes/contents.md`;
 
         fetch(markdownFileUrl)
             .then(response => response.text())
@@ -23,7 +26,8 @@
                     .map(line => {
                         const match = line.match(/\[(.*?)\]\((.*?)\)/);
                         if (match) {
- return { text: match[1], href: '/recipes/${match[2]}'] };                        }
+                            return { text: match[1], href: `/recipes/${match[2]}` };
+                        }
                         return null;
                     });
 
