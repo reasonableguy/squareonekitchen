@@ -6,7 +6,7 @@
     <title>GitHub Folder Contents</title>
 </head>
 <body>
-    <h1>Contents of thr</h1>
+    <h1>Contents of 3</h1>
     <ul id="folderContents"></ul>
 
     <script>
@@ -23,8 +23,7 @@
                     .map(line => {
                         const match = line.match(/\[(.*?)\]\((.*?)\)/);
                         if (match) {
-                            return { text: match[1], href: match[2] };
-                        }
+ return { text: match[1], href: '/recipes/${match[2]}'] };                        }
                         return null;
                     });
 
