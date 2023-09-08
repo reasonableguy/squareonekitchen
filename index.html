@@ -15,6 +15,16 @@
 body {
   font-family: avenir-light, Helvetica, sans-serif;
 }
+	.column-container {
+		    column-count: 3;
+    column-gap: 50px;
+    margin: 0 auto;
+    max-width: 800px;
+	}
+	.column-container > ul {
+		    break-before: column;
+
+	}
 </style>
 </head>
 <body >
@@ -25,7 +35,7 @@ body {
 <p style="max-width:45ch;margin:0 auto;">We love to cook. We share our attempts to make great, tasty, healthy food instead of buying poorer supermarket alternatives.</p>
 		<br><a href="https://youtube.com/@squareonekitchen"><p style="max-width:40ch;margin:0 auto;">Visit our YouTube channel to watch the videos and find links to the printable recipes</p></a>
 	</div>
-	<div>
+	<div class="column-container">
 		<ul id="folderContents"></ul>
 
     <script>
