@@ -3,63 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>GitHub Folder Table of Contents</title>
 </head>
 <body>
-    <ul id="menu-list">
-        <!-- Links will be added here -->
-    </ul>
-</body>
+    <h1>Table of Contents</h1>
+    <ul id="toc"></ul>
+
     <script>
-        const fs = require('fs');
-const path = require('path');
+        const username = "reasonableguy";
+        const repository = "squareonekitchen";
+        const folder = "/recipes";
+        const token = "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";
 
-const pagesFolderPath = path.join(__dirname, 'recipes');
-const menuFilePath = path.join(__dirname, 'menu.html');
+        const apiUrl = `https://api.github.com/repos/${username}/${repository}/contents/${folder}`;
 
-fs.watch(pagesFolderPath, { encoding: 'utf-8' }, (eventType, filename) => {
-    if (eventType === 'rename' && filename.endsWith('.html')) {
-        updateMenu();
-    }
-});
-
-function updateMenu() {
-    fs.readdir(pagesFolderPath, (err, files) => {
-        if (err) {
-            console.error('Error reading recipes folder:', err);
-            return;
-        }
-
-        const menuItems = files
-            .filter(file => file.endsWith('.html'))
-            .map(file => `<li><a href="./recipes/${file}">${file}</a></li>`)
-            .join('\n');
-
-        const menuContent = `
-            <!DOCTYPE html>
-            <html lang="en">
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Menu</title>
-            </head>
-            <body>
-                <ul id="menu-list">
-                    ${menuItems}
-                </ul>
-            </body>
-            </html>
-        `;
-
-        fs.writeFile(menuFilePath, menuContent, err => {
-            if (err) {
-                console.error('Error updating menu:', err);
-            } else {
-                console.log('Menu updated successfully.');
+        fetch(apiUrl, {
+            headers: {
+                Authorization: `token ${token}`
             }
-        });
-    });
-}
+        })
+        .then(response => response.json())
+        .then(data => {
+            const tocElement = document.getElementById("toc");
 
+            data.forEach(item => {
+                if (item.type === "file") {
+                    const listItem = document.createElement("li");
+                    const link = document.createElement("a");
+                    link.href = item.html_url;
+                    link.textContent = item.name;
+                    listItem.appendChild(link);
+                    tocElement.appendChild(listItem);
+                }
+            });
+        })
+        .catch(error => {
+            console.error("Error fetching GitHub folder contents:", error);
+        });
     </script>
+</body>
 </html>
