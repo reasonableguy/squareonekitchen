@@ -1,3 +1,3 @@
-- [Recipe 1](recipe1.md)
+- [Potato-gnocchi](/potato-gnocchi)
 - [Recipe 2](recipe2.md)
 - [Recipe 3](recipe3.md)
