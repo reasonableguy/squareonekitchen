@@ -1,4 +1,4 @@
-- [Potato-gnocchi](/potato-gnocchi.md)
+- [Potato Gnocchi](/potato-gnocchi)
 - [bbq-ribs](/bbq-ribs.md)
 - [bolognese](/bolognese.md)
 - [brioche-burger-buns](/brioche-burger-buns.md)
