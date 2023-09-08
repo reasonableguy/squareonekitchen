@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,40 +6,49 @@
     <title>GitHub Folder Table of Contents</title>
 </head>
 <body>
-    <h1>Table of Contenppts</h1>
+    <h1>Table of Contentfffffs</h1>
     <ul id="toc"></ul>
 
     <script>
-        // GitHub folder information
-        const repositoryUrl = "https://github.com/reasonableguy/squareonekitchen";
-        const folderPath = "recipes";
-        const accessToken = "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"; // Replace with your access token
+        // URL to the GitHub folder
+        const folderUrl = "https://github.com/reasonableguy/squareonekitchen/tree/main/recipes";
 
-        const apiUrl = `${repositoryUrl}/contents/${folderPath}`;
+        // Function to fetch and parse the GitHub folder page
+        async function fetchAndParseFolderPage(url) {
+            try {
+                const response = await fetch(url);
+                const text = await response.text();
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(text, "text/html");
 
-        fetch(apiUrl, {
-            headers: {
-                Authorization: `token ${accessToken}`
+                return doc;
+            } catch (error) {
+                console.error("Error fetching GitHub folder page:", error);
+                return null;
             }
-        })
-        .then(response => response.json())
-        .then(data => {
-            const tocElement = document.getElementById("toc");
+        }
 
-            data.forEach(item => {
-                if (item.type === "file") {
+        // Function to generate the table of contents
+        async function generateTableOfContents() {
+            const folderPage = await fetchAndParseFolderPage(folderUrl);
+
+            if (folderPage) {
+                const tocElement = document.getElementById("toc");
+                const links = folderPage.querySelectorAll(".js-navigation-open");
+
+                links.forEach(link => {
                     const listItem = document.createElement("li");
-                    const link = document.createElement("a");
-                    link.href = `${repositoryUrl}/blob/main/${folderPath}/${item.name}`;
-                    link.textContent = item.name;
-                    listItem.appendChild(link);
+                    const fileUrl = link.href.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/");
+                    const anchor = document.createElement("a");
+                    anchor.href = fileUrl;
+                    anchor.textContent = link.textContent;
+                    listItem.appendChild(anchor);
                     tocElement.appendChild(listItem);
-                }
-            });
-        })
-        .catch(error => {
-            console.error("Error fetching GitHub folder contents:", error);
-        });
+                });
+            }
+        }
+
+        generateTableOfContents();
     </script>
 </body>
 </html>
