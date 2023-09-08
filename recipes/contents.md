@@ -1,5 +1,5 @@
 - [Potato Gnocchi](/potato-gnocchi)
-- [bbq-ribs](/bbq-ribs.md)
+- [BBQ Ribs](/bbq-ribs.html)
 - [bolognese](/bolognese.md)
 - [brioche-burger-buns](/brioche-burger-buns.md)
 - [cinnamon-scrolls](/cinnamon-scrolls.md)
