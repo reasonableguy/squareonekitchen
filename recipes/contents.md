@@ -1,7 +1,7 @@
-- [Potato Gnocchi](/potato-gnocchi)
-- [BBQ Ribs](/bbq-ribs.html)
-- [bolognese](/bolognese.md)
-- [brioche-burger-buns](/brioche-burger-buns.md)
-- [cinnamon-scrolls](/cinnamon-scrolls.md)
-- [Recipe 2](/recipe2.md)
+- [Potato Gnocchi](/recipes/potato-gnocchi)
+- [BBQ Ribs](/recipes/bbq-ribs.html)
+- [bolognese](/recipes/bolognese.md)
+- [brioche-burger-buns](/recipes/brioche-burger-buns.md)
+- [cinnamon-scrolls](/recipes/cinnamon-scrolls.md)
+- [Recipe 2](/recipes/recipe2.md)
 
