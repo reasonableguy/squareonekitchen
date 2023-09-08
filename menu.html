@@ -14,7 +14,7 @@
         const folderContentsList = document.getElementById('folderContents');
 
         // Replace 'contents.md' with the actual file you want to parse.
-        const markdownFileUrl = `${repositoryUrl}/recipes/contents.md`;
+        const markdownFileUrl = `${repositoryUrl}/blob/main/recipes/contents.md`;
 
         fetch(markdownFileUrl)
             .then(response => response.text())
