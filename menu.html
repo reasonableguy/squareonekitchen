@@ -10,16 +10,17 @@
     <ul id="toc"></ul>
 
     <script>
+        // Replace these variables with your GitHub information
         const username = "reasonableguy";
         const repository = "squareonekitchen";
-        const folder = "/recipes";
-        const token = "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";
+        const folderPath = "tree/main/recipes";
+        const accessToken = "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";
 
-        const apiUrl = `https://api.github.com/repos/${username}/${repository}/contents/${folder}`;
+        const apiUrl = `https://api.github.com/repos/${username}/${repository}/contents/${folderPath}`;
 
         fetch(apiUrl, {
             headers: {
-                Authorization: `token ${token}`
+                Authorization: `token ${accessToken}`
             }
         })
         .then(response => response.json())
