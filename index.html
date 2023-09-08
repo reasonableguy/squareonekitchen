@@ -25,7 +25,45 @@ body {
 <p style="max-width:45ch;margin:0 auto;">We love to cook. We share our attempts to make great, tasty, healthy food instead of buying poorer supermarket alternatives.</p>
 		<br><a href="https://youtube.com/@squareonekitchen"><p style="max-width:40ch;margin:0 auto;">Visit our YouTube channel to watch the videos and find links to the printable recipes</p></a>
 	</div>
-	
+	<div>
+		<ul id="folderContents"></ul>
+
+    <script>
+        const markdownFileUrl = 'https://raw.githubusercontent.com/reasonableguy/squareonekitchen/main/recipes/contents.md';
+        const folderContentsList = document.getElementById('folderContents');
+
+        fetch(markdownFileUrl)
+            .then(response => response.text())
+            .then(markdownText => {
+                // Parse markdown and extract links
+                const links = markdownText
+                    .split('\n')
+                    .filter(line => line.trim().startsWith('- ['))
+                    .map(line => {
+                        const match = line.match(/\[(.*?)\]\((.*?)\)/);
+                        if (match) {
+                            return { text: match[1], href: match[2] };
+                        }
+                        return null;
+                    });
+
+                // Generate the list of links
+                links.forEach(link => {
+                    if (link) {
+                        const listItem = document.createElement('li');
+                        const anchor = document.createElement('a');
+                        anchor.href = link.href;
+                        anchor.textContent = link.text;
+                        listItem.appendChild(anchor);
+                        folderContentsList.appendChild(listItem);
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching and displaying folder contents:', error);
+            });
+    </script>
+	</div>
 	
 	
 	<div class="footer" w3-include-html="/footer.html"></div>
