@@ -15,18 +15,23 @@
 body {
   font-family: avenir-light, Helvetica, sans-serif;
 }
-	@media only screen and (min-width: 1024px) {
+	@media only screen and (min-width: 901px) {
    .column-container {
             column-count: 3; /* Set the number of columns */
             column-gap: 20px; /* Adjust the gap between columns as needed */
             align-items: flex-start; /* Align columns at the top */
+	   width: 800px;
+    margin: 0 auto;
+    padding-left: 150px;
         }
 	}
 		@media only screen and (max-width: 900px) {
    .column-container {
-            column-count: 2; /* Set the number of columns */
+            column-count: 3; /* Set the number of columns */
             column-gap: 20px; /* Adjust the gap between columns as needed */
             align-items: flex-start; /* Align columns at the top */
+	      width: 800px;
+    margin: 0 auto;
         }
 	}
 		@media only screen and (max-width: 500px) {
@@ -34,6 +39,9 @@ body {
             column-count: 1; /* Set the number of columns */
             column-gap: 20px; /* Adjust the gap between columns as needed */
             align-items: flex-start; /* Align columns at the top */
+	      width: 90%;
+    margin: 0 auto;
+    
         }
 	}
 
