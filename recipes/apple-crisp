@@ -1,1 +1,101 @@
-<!DOCTYPE html><html lang="en"><head><title>Square One Kitchen's The Best Apple Crisp Recipe</title><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><script src="https://www.w3schools.com/lib/w3.js"></script><link rel="stylesheet" href="/css.css"><style>/* INSERT RECIPE TITLE */.recipe-title:after {content:'The Best Apple Crisp';}/* INSERT PREP TIME */.prep-time:after {content:'5 minutes';}/* INSERT COOK TIME */.cook-time:after {content:'45 minutes';}/* INSERT TOTAL TIME */.total-time:after {content:'65 minutes';}/* INSERT IMAGE URL */</style><script type="text/javascript">onload = function(){var vara='https://d33wubrfki0l68.cloudfront.net/1f036bab-9258-4a6f-bf0e-c62d3e17d940/Gnocchi%20thumbnail.jpg';document.getElementById('mypic').setAttribute('src',vara)}</script></head><body ><div class="container"> <div w3-include-html="/head.html"></div><div class="print recipe"><div class="recipe-header"><div><h1 class="recipe-title"></h1><div class="time"><p class="prep-time">Prep time: </p><p class="cook-time">Cook time: </p><p class="total-time">Total time: </p></div><button class="noprint printbtn" onclick="window.print()">Print recipe</button></div><div><img class="noprint" id="mypic" src=""></div></div><div class="recipe-body"><div class="ingredients"><h3>Ingredients</h3><ul><li>100g AP flour</li><li>165g brown sugar</li><li>1 tablespoon lemon zest</li><li>1 teaspoon kosher salt</li><li>100g pecans</li><li>145g butter</li><li>4 apples</li><li>3 tablespoons sugar</li><li>1 tablespoon cornstarch</li><li>1/2 teaspoon kosher salt</li><li>1 tablespoon lemon juice (or whiskey)</li></ul></div><div class="method"><h3>Method</h3><ol><li>Preheat oven to 375°F.</li><li>Add the pecans and pulse briefly to start breaking them up.</li><li>Cut the butter into cubes and add to the processor. Pulse until mixture forms pea-sized chunks.</li><li>Place mixture in the fridge while you prepare the apples.</li><li>Wash the apples (leave the skins on). Cut out the cores and chop the apples into 1-2 inch chunks.</li><li>Toss the apples with the sugar, cornstarch, salt and lemon juice/whiskey.</li><li>Place the apple mixture in a 2-quart baking dish. Sprinkle the crisp mixture evenly on top.</li><li>Bak for 45 minutes.</li><li>Let stand at room temperature for 15  inutes before serving.</li></ol></div></div><iframe width="560" height="315" src="https://www.youtube.com/embed/TSIWZLowOCw?si=xfEtaA8dFgQMu2HP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="footer" w3-include-html="/footer.html"></div></div></body><script>w3.includeHTML();</script></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's The Best Apple Crisp Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'The Best Apple Crisp';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '5 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '45 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '65 minutes';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'assets/Apple Crisp Thumb.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>100g AP flour</li>
+              <li>165g brown sugar</li>
+              <li>1 tablespoon lemon zest</li>
+              <li>1 teaspoon kosher salt</li>
+              <li>100g pecans</li>
+              <li>145g butter</li>
+              <li>4 apples</li>
+              <li>3 tablespoons sugar</li>
+              <li>1 tablespoon cornstarch</li>
+              <li>1/2 teaspoon kosher salt</li>
+              <li>1 tablespoon lemon juice (or whiskey)</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>Preheat oven to 375°F.</li>
+              <li>Add the pecans and pulse briefly to start breaking them up.</li>
+              <li>Cut the butter into cubes and add to the processor. Pulse until mixture forms pea-sized chunks.</li>
+              <li>Place mixture in the fridge while you prepare the apples.</li>
+              <li>Wash the apples (leave the skins on). Cut out the cores and chop the apples into 1-2 inch chunks.</li>
+              <li>Toss the apples with the sugar, cornstarch, salt and lemon juice/whiskey.</li>
+              <li>Place the apple mixture in a 2-quart baking dish. Sprinkle the crisp mixture evenly on top.</li>
+              <li>Bak for 45 minutes.</li>
+              <li>Let stand at room temperature for 15 inutes before serving.</li>
+            </ol>
+          </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TSIWZLowOCw?si=xfEtaA8dFgQMu2HP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
