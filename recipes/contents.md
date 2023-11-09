@@ -1,4 +1,5 @@
 - [5-Minute Mayo](/recipes/5-minute-mayo)
+- [Apple Crisp](/recipes/apple-crisp)
 - [BBQ Ribs](/recipes/BBQ-ribs)
 - [Bolognese](/recipes/bolognese)
 - [Brioche Burger Buns](/recipes/brioche-burger-buns)
@@ -14,6 +15,7 @@
 - [Lumberjack Mac N Cheese](/recipes/lumberjack-mac-n-cheese)
 - [Marshmallows](/recipes/marshmallows)
 - [Meringues](/recipes/meringues)
+- [Miso Caramel Popcorn](/recipes/miso-caramel-popcorn)
 - [Pasta](/recipes/pasta)
 - [Pizza Dough](/recipes/pizza-dough)
 - [Pizza Sauce](/recipes/pizza-sauce)
