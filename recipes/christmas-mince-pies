@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Christmas Mince Pies Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Christmas Mince Pies';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '30 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '12 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '3 - 24 hours';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/Christmas Mince Pies Thumb.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>Filling</li>
+              <li>2 cups of mixed dried fruit (such as raisins, currants, sultanas, and chopped dates)</li>
+              <li>1/2 cup of chopped candied peel</li>
+              <li>1 small cooking apple, peeled, cored, and finely chopped</li>
+              <li>1/2 cup of brown sugar</li>
+              <li>Zest and juice of 1 orange</li>
+              <li>Zest and juice of 1 lemon</li>
+              <li>1 teaspoon of ground cinnamon</li>
+              <li>1 teaspoon of ground nutmeg</li>
+              <li>1/2 teaspoon of ground cloves</li>
+              <li>1/2 teaspoon of ground ginger</li>
+              <li>1/4 cup of brandy, rum, or sherry (optional, can be replaced with orange juice for a non-alcoholic version)</li>
+              <li>2 tablespoons of unsalted butter, melted</li>
+              <li>Pastry</li>
+              <li>4 oz butter</li>
+              <li>4 oz sugar</li>
+              <li>8 oz flour</li>
+              <li>1 tsp baking powder</li>
+              <li>1 egg</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>Filling</li>
+              <li>In a large mixing bowl, combine the dried fruits, candied peel, and chopped apple. Mix well.</li>
+              <li>Stir in the brown sugar, orange zest, lemon zest, cinnamon, nutmeg, cloves, and ginger. Mix thoroughly to ensure even distribution of the spices.</li>
+              <li>Add the orange juice, lemon juice, melted butter, and your choice of alcohol (or additional orange juice if you're making it non-alcoholic). Mix well.</li>
+              <li>Cover the bowl with plastic wrap and let the mixture sit in the refrigerator. Ideally, let it marinate overnight, or at least for a few hours. This allows the flavors to meld together.</li>
+              <li>While the filling is marinating, prepare your pie crusts.</li>
+              <li>Pastry</li>
+              <li>In a mixing bowl, cream together the butter and sugar until they are well combined and fluffy.</li>
+              <li>Crack an egg into the mixture and beat it thoroughly until the egg is fully incorporated and the mixture is smooth.</li>
+              <li>Sift the flour and baking powder directly into the bowl containing the creamed mixture. Mix these ingredients well to form a consistent dough.</li>
+              <li>Roll the dough into a ball and wrap it in cling film. Place it in the refrigerator to harden, which will make it easier to roll out and cut into shapes later.</li>
+              <li>Putting It All Together</li>
+              <li>Preheat oven to 350°F.</li>
+              <li>Fill your pie crusts with the mincemeat filling.</li>
+              <li>Cover them with additional pastry in the form of a lid or lattice.</li>
+              <li>Bake for 12 minutes.</li>
+              <li>Allow the pies to cool slightly before serving. They can be enjoyed warm or at room temperature.</li>
+            </ol>
+          </div>
+        </div>
+        <style="display:none;" iframe width="560" height="315" src="https://www.youtube.com/embed/ydCuCcdD2G4?si=WbW-2RQoUym0_AwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
