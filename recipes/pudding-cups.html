@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Pudding Cups Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Pudding Cups';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '2 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '15 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '1 hour';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/Pudding Cup Thumb.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>⅓ cup granulated sugar</li>
+              <li>3 tablespoons cornstarch</li>
+              <li>⅛ teaspoon salt</li>
+              <li>2-¼ cups whole milk</li>
+              <li>2 large egg yolks</li>
+              <li>1 tablespoon unsalted butter</li>
+              <li>flavour of your choice.e.g., 1 tablespoon matcha powder, 1-½ teaspoons pure vanilla extract, etc.</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>In a medium saucepan, whisk together sugar, cornstarch, salt, milk, and egg yolks (if you're using a powdered flavouring, mix this in now too).</li>
+              <li>Cook this mixture over medium-low heat. Whisk occasionally, about every minute or two, until it starts bubbling throughout, which should take about 7-8 minutes.</li>
+              <li>Once it begins to bubble, continue cooking for an additional 1-2 minutes, whisking once or twice, but gently to maintain the binding properties. The pudding will be thickened but still pourable at this stage and will thicken further as it cools.</li>
+              <li>Remove the saucepan from the heat. If you're using a liquid flavouring, e.g., vanilla extract, whisk it in now.</li>
+              <li>If you notice lumps and wish to remove them, place a fine mesh strainer over a large heatproof bowl and pour the mixture through it. If there are no lumps, you can skip this step.</li>
+              <li>Transfer the pudding into individual serving bowls or containers. Allow to cool until lukewarm, then cover with plastic wrap and refrigerate for several hours or until fully chilled.</li>
+            </ol>
+          </div>
+        </div>
+        <iframe style="display:none;" width="560" height="315" src="https://www.youtube.com/embed/ydCuCcdD2G4?si=WbW-2RQoUym0_AwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
