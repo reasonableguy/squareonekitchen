@@ -17,7 +17,7 @@
 - [Kansas City Bbq Sauce](/recipes/kansas-city-bbq-sauce)
 - [Ketchup](/recipes/ketchup)
 - [Lumberjack Mac N Cheese](/recipes/lumberjack-mac-n-cheese)
-- [Maple Fudge](/recipes/maple-maple)
+- [Maple Fudge](/recipes/maple-fudge)
 - [Marshmallows](/recipes/marshmallows)
 - [Marzipan](/recipes/marzipan)
 - [Meringues](/recipes/meringues)
