@@ -31,6 +31,7 @@
 - [Raspberry Jam](/recipes/raspberry-freezer-jam)
 - [Sicilian-Style Raspbery Gelato](/recipes/sicilian-style-raspberry-gelato)
 - [Scones](/recipes/scones)
+- [Scottish Shortbread](/recipes/scottish-shortbread)
 - [Sourdough Crackers](/recipes/sourdough-crackers)
 - [Traditional Basil Pesto](/recipes/traditional-basil-pesto)
 - [Wholeseed Dijon Mustuard](/recipes/wholeseed-dijon-mustard)
