@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Scottish Shortbread Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Scottish Shortbread';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '20 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '25-30 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '1 hour';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/Scottish Shortbread Thumb.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>340g flour</li>
+              <li>100g sugar</li>
+              <li>230g butter</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>Preheat your oven to 375º F (190º C).</li>
+              <li>Start by mixing the unsalted butter, all-purpose flour, and granulated sugar in a mixing bowl. Ensure that the butter is not too soft but not straight from the fridge, especially if using a mixer.</li>
+              <li>Be cautious not to overwork the dough; stop mixing when it just comes together.</li>
+              <li>Roll out the dough to a thick, even layer. Trim the edges to the approximate size you desire for your shortbread.</li>
+              <li>Use a bench scraper or knife to cut the dough into fingers. Then, prick the shortbread with a fork about halfway through.</li>
+              <li>Place the prepared shortbread in the preheated oven for 25 to 30 minutes, depending on the thickness or shape, or until the edges turn slightly brown. Allow your shortbread to cool in the pan or tray before transferring it to a rack to cool completely. Enjoy your delicious Scottish shortbread!</li>
+            </ol>
+          </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ydCuCcdD2G4?si=WbW-2RQoUym0_AwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
