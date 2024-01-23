@@ -8,6 +8,7 @@
 - [Christmas Mince Pies](/recipes/christmas-mince-pies)
 - [Cinnamon Scrolls](/recipes/cinnamon-scrolls)
 - [Classic Chocolate Chip Cookies](/recipes/classic-chocolate-chip)
+- [Claasic Éclairs](/recipes/eclairs)
 - [Fondant](/recipes/fondant)
 - [Granola](/recipes/granola)
 - [Ground Beef Jerky](/recipes/ground-beef-jerky)
