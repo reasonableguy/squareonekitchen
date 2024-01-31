@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Turkish Delight Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Turkish Delight';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '25 hour';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '25 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '25 hours';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/0128-cover.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>2 tablespoons gelatin</li>
+              <li>3/4 cup water</li>
+              <li>2 cups sugar</li>
+              <li>1 cup boiling water</li>
+              <li>1 teaspoon ascorbic acid (or 1/2 teaspoon tartaric acid)</li>
+              <li>1/2 teaspoon of rose water (or flavouring of your choice)</li>
+              <li>a few drops of food colouring</li>
+              <li>¼ cup icing sugar</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>In a medium saucepan, sprinkle the 2 tablespoons of gelatin and add 3/4 cup of water. Let it sit for 10 minutes to allow the gelatin to soften.</li>
+              <li>After 10 minutes, add 2 cups of sugar and 1 cup of boiling water to the gelatin. Stir until the sugar is completely dissolved.</li>
+              <li>Bring to a boil, then let boil for 15 minutes.</li>
+              <li>Remove from heat and stir in the ascorbic acid (or tartaric acid), rose water (or your chosen flavouring), and a few drops of food coloring. Mix well to ensure everything is combined.</li>
+              <li>Pour the mixture into a shallow, rectangular dish that's been lined with cling film (optional) and liberally wet with water. Leave it to set at room temperature until firm (around 24 hours).</li>
+              <li>Once set, turn the Turkish Delight out onto a surface dusted with icing sugar or cornstarch. Cut it into small cubes using a knife (dust the knife with icing sugar if it's getting too sticky). Dust each piece thoroughly with icing sugar or cornstarch.</li>
+            </ol>
+          </div>
+        </div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IodHgX8RA1A?si=cYI9_MygnOrW-TvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
