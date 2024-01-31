@@ -35,4 +35,5 @@
 - [Scottish Shortbread](/recipes/scottish-shortbread)
 - [Sourdough Crackers](/recipes/sourdough-crackers)
 - [Traditional Basil Pesto](/recipes/traditional-basil-pesto)
+- [Turkish Delight](/recipes/turkish-delight)
 - [Wholeseed Dijon Mustuard](/recipes/wholeseed-dijon-mustard)
