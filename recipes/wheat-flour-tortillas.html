@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Wheat Flour Tortillas Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Wheat Flour Tortillas';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '30 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '20 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '40 minutes';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/tortillas-cover.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>400g all-purpose flour, plus extra for rolling</li>
+              <li>1 teaspoon kosher salt</li>
+              <li>1 & 1/2 teaspoons baking powder</li>
+              <li>80g canola oil (or similar)</li>
+              <li>1 & 1/4 cup hot water</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>In a large mixing bowl, combine the dry ingredients. Stir these together until well mixed.</li>
+              <li>Make a well in the center of the flour mixture and add the oil and the water. Use a spoon or your hands to mix the wet and dry ingredients together until a shaggy dough forms.</li>
+              <li>Turn the dough out onto a lightly floured surface. Knead it for about 3-5 minutes, until it becomes smooth and elastic. If the dough is too sticky, add a little more flour as you knead. However, be careful not to add too much flour, as it can make the tortillas tough.</li>
+              <li>Shape the dough into a ball and divide in half. Repeat divisions until you have the desired size/amount (12 balls for large tortillas - 24 balls for tacos).</li>
+              <li>Cover with a clean kitchen towel. Let it rest for at least 20 minutes. This rest period allows the gluten to relax, making the dough easier to roll out.</li>
+              <li>After resting, on a lightly floured surface, use a rolling pin to roll out each piece of dough into a thin circle. Try to get them as thin as possible without tearing. If the dough sticks to the rolling pin or surface, use a bit more flour. However, use it sparingly to avoid drying out the dough. Turn the dough 90 degrees after each pass to achieve round tortillas.</li>
+              <li>Heat a large skillet or griddle over medium-high heat. Once hot, place one tortilla in the skillet. Cook for about 30 seconds to a minute (brown spots form on the underside). Flip and cook the other side. Repeat with the remaining dough, adjusting the heat as necessary to prevent burning. Make sure you wipe excess flour from the pan and add oil as needed.</li>
+              <li>Ideally, you want to cook the tortillas as you're making them to maximize time and prevent them sticking together.</li>
+            </ol>
+          </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ydCuCcdD2G4?si=WbW-2RQoUym0_AwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
