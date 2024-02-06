@@ -36,4 +36,5 @@
 - [Sourdough Crackers](/recipes/sourdough-crackers)
 - [Traditional Basil Pesto](/recipes/traditional-basil-pesto)
 - [Turkish Delight](/recipes/turkish-delight)
+- [Wheat Flour Tortillas](/recipes/wheat-flour-tortillas)
 - [Wholeseed Dijon Mustuard](/recipes/wholeseed-dijon-mustard)
