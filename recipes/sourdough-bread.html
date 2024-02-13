@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Sourdough Bread Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Sourdough Bread';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '20 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '55 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '18 hours';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/sourdough thumb 1.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>400g all-purpose flour, plus extra for dusting</li>
+              <li>100g sourdough starter</li>
+              <li>300g warm water</li>
+              <li>8g kosher salt</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>Remove the sourdough from the fridge and feed it with 50g of water and 50g of flour. Let it rest for 6-8 hours.</li>
+              <li>After resting, the starter should be nice and bubbly. Combine the starter with flour, water, and salt. Stir until well mixed. Cover loosely and let it sit at room temperature for about 30 minutes.</li>
+              <li>Stretch and fold the dough until it begins to feel tight and hard to stretch.</li>
+              <li>Cover again and let rest for 8-12 hours, or until doubled in size and bubbly.</li>
+              <li>Turn out the dough onto a floured surface and strecth and fold again. Shape the dough into its final form. This could be a boule (round loaf) or batard (oval loaf). Place the shaped dough into a well-floured banneton (proofing basket) or a bowl lined with a floured towel. Let it rest for 30 minutes.</li>
+              <li>Preheat the oven to 500°F.</li>
+              <li>Turn the dough into a dutch oven, or similar, and score with a lame, or a sharp knife.</li>
+              <li>Put on the lid and place in the oven. Turn the oven down to 450°F and cook for 30 minutes.</li>
+              <li>Uncover, turn the oven down to 425°F and bake for another 25 minutes until the crust is deeply caramelized.</li>
+              <li>Let the bread cool on a wire rack for at least half an hour before slicing.</li>
+            </ol>
+          </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ydCuCcdD2G4?si=WbW-2RQoUym0_AwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
