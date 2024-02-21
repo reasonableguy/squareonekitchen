@@ -17,6 +17,7 @@
 - [Instant Pot Yogurt](/recipes/instant-pot-yogurt)
 - [Kansas City Bbq Sauce](/recipes/kansas-city-bbq-sauce)
 - [Ketchup](/recipes/ketchup)
+- [Lemon Nectar](/recipes/lemon-nectar)
 - [Lumberjack Mac N Cheese](/recipes/lumberjack-mac-n-cheese)
 - [Maple Fudge](/recipes/maple-fudge)
 - [Marshmallows](/recipes/marshmallows)
