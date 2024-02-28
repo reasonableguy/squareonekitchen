@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Lemon Nectar Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Lemon Nectar';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '15 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '0 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '24-36 hours';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/Harissa -Cover.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>1 red pepper</li>
+              <li>1/2 teaspoon coriander seeds</li>
+              <li>1/2 teaspoon cumin seeds</li>
+              <li>1/2 teaspoon caraway seeds</li>
+              <li>1 & 1/2 tablespoon olive oil</li>
+              <li>1 small red onion (90g)</li>
+              <li>3 cloves garlic</li>
+              <li>3 red chilies</li>
+              <li>1 & 1/2 teaspoon tomato paste</li>
+              <li>2 tablespoons lemon juice</li>
+              <li>1/2 teaspoon salt</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>Place the pepper on an oven tray under your broiler. Cook each side until blackened (4-5 minutes each side).</li>
+              <li>Transfer the cooked pepper to a bowl. Cover and leave to cool.</li>
+              <li>While you are broiling the pepper, prepare the rest of the ingredients.</li>
+              <li>Place a dry fry pan over a low-medium heat. Fry the three seeds for 1-2 minutes. </li>
+              <li>While the seeds are frying, deseed the chilies and chop the chilies, garlic and onion.</li>
+              <li>Tip the seeds into a mortar & pestle and grind to a rough powder.</li>
+              <li>Add the olive oil to the frying pan and heat over a medium heat. Once hot, add the chopped ingredients and fry for 10-12 minutes (until dark).</li>
+              <li>Add all the ingredients to a blender and blend until smooth.</li>
+              <li>(Store in a jar in the fridge)</li>
+            </ol>
+          </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ydCuCcdD2G4?si=WbW-2RQoUym0_AwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
