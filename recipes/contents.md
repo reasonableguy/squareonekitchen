@@ -12,6 +12,7 @@
 - [Fondant](/recipes/fondant)
 - [Granola](/recipes/granola)
 - [Ground Beef Jerky](/recipes/ground-beef-jerky)
+- [Harissa Paste](/recipes/harissa)
 - [Homemade Oreos](/recipes/homemade-oreos)
 - [Instant Pot Marinara](/recipes/instant-pot-marinara)
 - [Instant Pot Yogurt](/recipes/instant-pot-yogurt)
