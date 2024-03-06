@@ -37,6 +37,7 @@
 - [Scottish Shortbread](/recipes/scottish-shortbread)
 - [Sourdough Bread](/recipes/sourdough-bread)
 - [Sourdough Crackers](/recipes/sourdough-crackers)
+- [Tomato Soup](/recipes/tomato-soup)
 - [Traditional Basil Pesto](/recipes/traditional-basil-pesto)
 - [Turkish Delight](/recipes/turkish-delight)
 - [Wheat Flour Tortillas](/recipes/wheat-flour-tortillas)
