@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Tomato Soup Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Tomato Soup';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '25 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '55 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '80 minutes';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/Tomato Soup-Cover.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>250g butter</li>
+              <li>1 large onion, cut into ¼-inch dice</li>
+              <li>½ cup all-purpose flour</li>
+              <li>4 (28-ounce) cans diced tomatoes</li>
+              <li>1¼ cups chicken broth</li>
+              <li>2 carrots, chopped</li>
+              <li>1 tablespoon kosher salt</li>
+              <li>½ cup celery, chopped</li>
+              <li>¾ teaspoon pepper</li>
+              <li>¾ cup milk or cream</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>Start the Base: In a large pot, melt the butter over medium-low heat. Add the onions, celery and carrots and cook gently, stirring occasionally, until they are soft and translucent, about 20 minutes.</li>
+              <li>Thicken with Flour: Sprinkle the flour over the vegetables, stirring well until the mixture becomes slightly thickened and turns pale gold, taking care not to let it brown, about 3 minutes.</li>
+              <li>Add Main Ingredients: To the pot, add the tomatoes with their juices, chicken broth, kosher salt, and pepper. Increase the heat to medium until the mixture begins to bubble, then lower the heat to simmer. Continue simmering for 30 minutes, making sure to scrape the bottom of the pot frequently to prevent sticking.</li>
+              <li>Creamy Touch: Stir in the milk or cream, blending them thoroughly with the tomato mixture.</li>
+              <li>Purée Soup: Remove the pot from the heat. Using a hand blender, purée the soup directly in the pot until smooth. Alternatively, let the soup cool slightly before puréeing in batches in a stand blender. After blending, return the soup to the pot.</li>
+              <li>Final Heat: Place the pot back on medium heat, warming the soup just until heated through. </li>
+            </ol>
+          </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/elJM50jl5iA?si=stP5KTwvd26sujmv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
