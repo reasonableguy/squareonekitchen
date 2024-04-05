@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Pistachio Salted Caramels Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Pistachio Salted Caramels';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '10 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '20 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '3-4 hours';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/Salted Caramel-Cover.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>1 cup (200g) granulated sugar</li>
+              <li>1/2 cup (120ml) light corn syrup</li>
+              <li>1/2 cup (120ml) heavy cream</li>
+              <li>5 tablespoons (70g) unsalted butter</li>
+              <li>1 teaspoon fine sea salt</li>
+              <li>1/2 teaspoon vanilla extract</li>
+              <li>1/4-1/2 cup finely chopped pistachios</li>
+              <li>Flaky sea salt, for sprinkling</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>Prepare the Pan: Line an 8x8 inch baking pan with parchment paper, allowing excess to hang over the sides for easy removal. Lightly grease the parchment with butter or non-stick spray.</li>
+              <li>Combine Ingredients: In a medium, heavy-bottomed saucepan, combine the sugar and corn syrup. Stir over medium heat until the sugar has dissolved.</li>
+              <li>Add the butter & cream and stir until it has melted and is fully incorporated.</li>
+              <li>Cook the Caramel: Insert the candy thermometer into the pot and continue to cook the mixture over medium heat, without stirring, until the thermometer reads 248°F (120°C). This temperature will create chewy caramels. Adjust the heat as needed to prevent burning.</li>
+              <li>Finish the Caramel: Once the caramel reaches 248°F, remove the pan from heat and carefully stir in the fine sea salt and vanilla extract.</li>
+              <li>Pour and Cool: Immediately pour the caramel into the prepared pan. Allow the caramel to cool completely at room temperature or in the refrigerator until it is set.</li>
+              <li>Cut the Caramels: Lift the set caramel out of the pan using the parchment paper overhang. Use a sharp, greased knife to cut the caramel into small squares or rectangles. If the caramel sticks to the knife, grease it with a bit of vegetable oil or butter.</li>
+              <li>Coat Caramels: Liberally coast the cut caramels with chopped pistachios. Or, if desired, wrap each caramel in a small piece of parchment paper, twisting the ends to close. This helps prevent them from sticking together.</li>
+              <li>
+                <br>Tips:</br>
+              </li>
+              <li>Watch the Heat: The key to perfect caramels is carefully monitoring the temperature. Cooking the caramel to exactly 248°F ensures a chewy texture without being too soft or too hard.</li>
+              <li>Storage: Store your wrapped caramels in an airtight container at room temperature for up to two weeks.Enjoy your homemade chewy salted caramels!</li>
+            </ol>
+          </div>
+        </div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f_9QhdXgIg0?si=NeUcLH_skBdA4wfS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
