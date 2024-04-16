@@ -10,6 +10,7 @@
 - [Classic Chocolate Chip Cookies](/recipes/classic-chocolate-chip)
 - [Classic Éclairs](/recipes/eclairs)
 - [Fondant](/recipes/fondant)
+- [French Dressing (Vinaigrette)](/recipes/french-dressing)
 - [Granola](/recipes/granola)
 - [Ground Beef Jerky](/recipes/ground-beef-jerky)
 - [Harissa Paste](/recipes/harissa)
