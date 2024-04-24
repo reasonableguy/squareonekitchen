@@ -33,6 +33,7 @@
 - [Pizza Sauce](/recipes/pizza-sauce)
 - [Potato Gnocchi](/recipes/potato-gnocchi)
 - [Pudding Cups](/recipes/pudding-cups)
+- [Ranch Dressing](/recipes/ranch-dressing)
 - [Raspberry Jam](/recipes/raspberry-freezer-jam)
 - [Sicilian-Style Raspbery Gelato](/recipes/sicilian-style-raspberry-gelato)
 - [Scones](/recipes/scones)
