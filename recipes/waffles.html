@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Waffles Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Waffles';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '10 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '25 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '35 minutes';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/Waff-Cover.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>2 cups flour</li>
+              <li>1.5 tablespoons baking powder</li>
+              <li>1/2 teaspoon salt</li>
+              <li>3/4 cup sugar</li>
+              <li>2 eggs (separated)</li>
+              <li>1/2 cup canola oil</li>
+              <li>2 cups milk</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>Turn your waffle maker on to preheat.</li>
+              <li>Carefully separate your eggs. Place the whites in a mixing bowl and whisk until you get stiff peaks. (set the yolks aside for later).</li>
+              <li>Combine all the dry ingredients in medium bowl.</li>
+              <li>In a mixing bowl, combine the yolks, milk and oil.</li>
+              <li>When the wet ingredients are nicely combined, slowly add in the dry mixture.</li>
+              <li>Whisk for a minute to form a good batter.</li>
+              <li>Turn the mixer off and slowly flod in the egg whites.</li>
+              <li>Lightly grease your waffle maker and add the batter according to the directions (ours takes half a cup of batter per waffle).</li>
+              <li>Eat straight away or allow to cool on a cooling rack before storing in the freezer.</li>
+              <li>They're easy to reheat from frozen in the toaster.</li>
+            </ol>
+          </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/elJM50jl5iA?si=stP5KTwvd26sujmv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
