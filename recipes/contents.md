@@ -35,6 +35,7 @@
 - [Pudding Cups](/recipes/pudding-cups)
 - [Ranch Dressing](/recipes/ranch-dressing)
 - [Raspberry Jam](/recipes/raspberry-freezer-jam)
+- [Ricotta](/recipes/ricotta)
 - [Sicilian-Style Raspbery Gelato](/recipes/sicilian-style-raspberry-gelato)
 - [Scones](/recipes/scones)
 - [Scottish Shortbread](/recipes/scottish-shortbread)
@@ -44,4 +45,6 @@
 - [Traditional Basil Pesto](/recipes/traditional-basil-pesto)
 - [Turkish Delight](/recipes/turkish-delight)
 - [Wheat Flour Tortillas](/recipes/wheat-flour-tortillas)
-- [Wholeseed Dijon Mustuard](/recipes/wholeseed-dijon-mustard)
+- [Wholeseed Dijon Mustard](/recipes/wholeseed-dijon-mustard)
+- [Zucchini Gnocchi](/recipes/zucchini-gnocchi)
+
