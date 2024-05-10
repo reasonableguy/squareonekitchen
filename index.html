@@ -34,10 +34,17 @@ body {
           }
 		ul#folderContents{
 		
- -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
 }
+		li {
+			width:30%;
+			margin:15px;
+	}
 	}
 		@media only screen and (max-width: 900px) {
    .column-container {
