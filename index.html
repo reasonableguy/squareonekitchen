@@ -45,14 +45,24 @@ body {
 	}
 		@media only screen and (max-width: 900px) {
    .column-container {
-            column-count: 2; /* Set the number of columns */
-       	      width: 80%;
+             display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        padding-bottom: unset;
+        padding: 30px;
+	           justify-content: center;
           }
 	}
 		@media only screen and (max-width: 500px) {
    .column-container {
-            column-count: 1; /* Set the number of columns */
-            width: 90%; 
+              display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        padding-bottom: unset;
+        padding: 30px;
+	           justify-content: center;
         }
 	}
 
