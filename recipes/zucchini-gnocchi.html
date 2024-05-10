@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Zucchini Gnocchi Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Zucchini Gnocchi';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '20 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '5 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '25 minutes';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/zucchini-gnocchi.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>250g zucchini</li>
+              <li>250g ricotta</li>
+              <li>300g flour (plus extra for dusting)</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>Blend the zucchini and ricotta in a food processor until it forms a paste.</li>
+              <li>Add the flour and blend until it forms a dough.</li>
+              <li>Turn onto a lightly floured counter. knead with a little extra flour if the dough is still too sticky.</li>
+              <li>Cut dough into workable portions and roll into sausages about 1 centimetre thick.</li>
+              <li>Cut the sausages into little pillows.</li>
+              <li>Bring a large pot of wath to a boil.</li>
+              <li>Add the gnocchi to the boiling water. Cook in batches so as not to crowd the pot.</li>
+              <li>The gnocchi will rise to the surface when cooked.</li>
+              <li>Scoop the cooked gnocchi out.</li>
+              <li>Eat straight away, or space out on a tray and freeze for later.</li>
+              <li>(To reheat from frozen, repeat steps 6 - 9.)</li>
+            </ol>
+          </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/elJM50jl5iA?si=stP5KTwvd26sujmv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
