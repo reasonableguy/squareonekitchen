@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Tanghulu Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Tanghulu';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '10 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '15 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '25 minutes';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/tanghulu-cover.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>250g fruit</li>
+              <li>ice</li>
+              <li>1/2 cup water</li>
+              <li>1 cup white sugar</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>Prepare the Fruit: Wash and dry your fruit thoroughly. Skewer 1-3 pieces of fruit onto each wooden stick.</li>
+              <li>Make the Sugar Syrup: In a medium pot, combine sugar and water. Heat over medium heat until it reaches 275-300°F. If you don't have a thermometer, test by dipping a spoon or skewer in the syrup and then in ice water—if it hardens, it's ready.</li>
+              <li>Dip the Fruit: Once the sugar syrup is ready, reduce the heat to low. Carefully dip the skewered fruits into the syrup, rotating to coat evenly.</li>
+              <li>Harden the Coating: Let the excess syrup drip off the fruit, then dip the skewers into ice water for 2-4 seconds to harden the sugar coating.</li>
+              <li>Serve Immediately: Enjoy your tanghulu while the sugar coating is still crisp.</li>
+              <li>Notes: If the sugar mixture crystallizes, add a little water and reheat to the right temperature. Avoid overheating to prevent making caramel instead of a hard sugar coating.</li>
+            </ol>
+          </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/elJM50jl5iA?si=stP5KTwvd26sujmv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
