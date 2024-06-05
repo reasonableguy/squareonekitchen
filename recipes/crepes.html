@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Crêpes Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Crêpes';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '5 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '30 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '2 hours & 35 minutes';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/crepes-cover.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>4 large eggs</li>
+              <li>1 cup cold milk</li>
+              <li>1 cup cold water</li>
+              <li>1/2 teaspoon salt</li>
+              <li>1 & 1/2 cups flour</li>
+              <li>60g melted butter, plus more for brushing on pan</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>Melt 60g of butter in a small pan and set aside.</li>
+              <li>In a blender or with a whisk, mix the eggs, milk, and water until smooth. Gradually add the salt and flour, then blend in the melted butter.</li>
+              <li>Refrigerate the batter for at least 2 hours, or overnight.</li>
+              <li>Heat a non-stick frying pan over medium heat and brush with melted butter.</li>
+              <li>Pour 2 to 3 tablespoons of batter into the center of the pan and tilt the pan to cover the bottom evenly. Cook for about 1 minute, or until browned on the bottom, then flip and cook briefly on the other side.</li>
+              <li>Cool the crêpes on a rack or plate. Serve as desired.</li>
+            </ol>
+          </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/elJM50jl5iA?si=stP5KTwvd26sujmv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
