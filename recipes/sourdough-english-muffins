@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Sourdough Engligh Muffins Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Sourdough Engligh Muffins';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '5 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '20 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '2 and a 1/2 to 12 hours';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/engligh mufins-cover.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>225g Bread flour</li>
+              <li>225g Warm water</li>
+              <li>115g Leftover sourdough starter</li>
+              <li>30g Non-fat dry milk powder</li>
+              <li>30g Unsalted butter, melted</li>
+              <li>15g Granulated sugar</li>
+              <li>1 teaspoon kosher salt</li>
+              <li>1 teaspoon instant yeast</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>Prepare the Batter: In a large bowl, whisk together all the ingredients. To melt the butter, place it in a microwave or a pot and heat until fully melted. You can use unfed/discarded starter that has been kept at room temperature or straight from the refrigerator. Cover the bowl with plastic wrap and let it stand at room temperature until the batter has roughly doubled in volume, about 1 hour.</li>
+              <li>Heat the Pan: Heat a non-stick pan on medium heat. Grease the inside of four 3 1/2-inch English muffin rings or round ring molds and place them in the pan. (this recipe makes 8 muffins)</li>
+              <li>Portion the Batter: Use a 1/3 cup measuring cup to evenly portion the batter into the rings. Cover the rings, reduce the heat to low, and cook undisturbed for 5 minutes.</li>
+              <li>Flip the Muffins: Remove the cover and flip them over to cook the other side. Cover again and cook for an additional 5 minutes.</li>
+              <li>Remove Rings and Cool: Remove the baking sheet. Using tongs, carefully remove the rings from the muffins and set them aside. Transfer the muffins to a wire rack to cool for about 10 minutes.</li>
+              <li>Serve and Store: Split the English muffins and serve with your favourite toppings. English muffins are best served the same day. Store leftover muffins in an airtight container at room temperature for up to 2 days.</li>
+            </ol>
+          </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/elJM50jl5iA?si=stP5KTwvd26sujmv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
