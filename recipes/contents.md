@@ -9,7 +9,7 @@
 - [Christmas Mince Pies](/recipes/christmas-mince-pies)
 - [Cinnamon Scrolls](/recipes/cinnamon-scrolls)
 - [Classic Chocolate Chip Cookies](/recipes/classic-chocolate-chip)
-- [Crèpes](/recipes/crepes)
+- [Crêpes](/recipes/crepes)
 - [Éclairs](/recipes/eclairs)
 - [Fondant](/recipes/fondant)
 - [French Dressing (Vinaigrette)](/recipes/french-dressing)
