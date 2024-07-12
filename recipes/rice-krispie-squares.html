@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Square One Kitchen's Rice Krispie Squares Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="/css.css">
+    <style>
+      /* INSERT RECIPE TITLE */
+      .recipe-title:after {
+        content: 'Rice Krispie Squares';
+      }
+
+      /* INSERT PREP TIME */
+      .prep-time:after {
+        content: '5 minutes';
+      }
+
+      /* INSERT COOK TIME */
+      .cook-time:after {
+        content: '15 minutes';
+      }
+
+      /* INSERT TOTAL TIME */
+      .total-time:after {
+        content: '1 hour';
+      }
+
+      /* INSERT IMAGE URL */
+    </style>
+    <script type="text/javascript">
+      onload = function() {
+        var vara = 'https://squareonekitchen.com/docs/assets/rice krispie squares-cover.jpg';
+        document.getElementById('mypic').setAttribute('src', vara)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div w3-include-html="/head.html"></div>
+      <div class="print recipe">
+        <div class="recipe-header">
+          <div>
+            <h1 class="recipe-title"></h1>
+            <div class="time">
+              <p class="prep-time">Prep time: </p>
+              <p class="cook-time">Cook time: </p>
+              <p class="total-time">Total time: </p>
+            </div>
+            <button class="noprint printbtn" onclick="window.print()">Print recipe</button>
+          </div>
+          <div>
+            <img class="noprint" id="mypic" src="">
+          </div>
+        </div>
+        <div class="recipe-body">
+          <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>165g Rice Krispies</li>
+              <li>Neutral oil for greasing</li>
+              <li>55g butter</li>
+              <li>1/2 teaspoon kosher salt</li>
+              <li>340g marshmallows</li>
+            </ul>
+          </div>
+          <div class="method">
+            <h3>Method</h3>
+            <ol>
+              <li>Preheat and Toast: Preheat oven to 325ºF. Line 2 rimmed baking sheets with parchment paper and evenly spread Rice Krispies on them. Toast in the oven for about 10 minutes, stirring occasionally, until golden brown. Remove from the oven and let cool for 5 minutes.</li>
+              <li>Prepare Baking Dish: Line an 8x8 baking dish with parchment paper, leaving an overhang on two sides. Coat the parchment paper with oil and set aside.</li>
+              <li>Melt Butter and Marshmallows: In a large pot, melt butter over medium heat until it starts to brown (3-4 minutes). Reduce heat to low, add salt and marshmallows. Stir until marshmallows are just melted (about 4 minutes).</li>
+              <li>Combine Ingredients: Add the toasted Rice Krispies to the pot. Fold the mixture until the Rice Krispies are evenly coated with the melted marshmallow mixture.</li>
+              <li>Press into Baking Dish: Transfer the Rice Krispies mixture into the prepared baking dish. Use an oiled spatula to press the mixture into an even layer.</li>
+              <li>Cool and Cut: Allow the mixture to cool for 30 minutes. Remove the bars from the baking dish using the parchment overhang and place on a cutting board. Use a greased knife to cut the bars into desired shapes.</li>
+            </ol>
+          </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/elJM50jl5iA?si=stP5KTwvd26sujmv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="footer" w3-include-html="/footer.html"></div>
+    </div>
+  </body>
+  <script>
+    w3.includeHTML();
+  </script>
+</html>
