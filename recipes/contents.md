@@ -30,6 +30,7 @@
 - [Mint Jelly](/recipes/mint-jelly)
 - [Miso Caramel Popcorn](/recipes/miso-caramel-popcorn)
 - [Pasta](/recipes/pasta)
+- [Peanut Butter](/recipes/peanut-butter)
 - [Pistachio Salted Caramel](/recipes/pistachio-salted-caramel)
 - [Pizza Dough](/recipes/pizza-dough)
 - [Pizza Sauce](/recipes/pizza-sauce)
